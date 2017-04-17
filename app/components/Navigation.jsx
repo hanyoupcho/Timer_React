@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 import React from 'react';
 import {NavLink as Link} from 'react-router-dom';
 
@@ -13,7 +14,7 @@ var Navigation = () => {
             <Link exact to="/" activeClassName="active-link">Timer</Link>
           </li>
           <li>
-            <Link to="/" activeClassName="active-link">Countdown</Link>
+            <Link to="/countdown" activeClassName="active-link">Countdown</Link>
           </li>
         </ul>
       </div>
